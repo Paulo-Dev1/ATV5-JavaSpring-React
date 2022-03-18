@@ -1,0 +1,5 @@
+package com.agencia.turismo.controllers;
+
+public class HospedagemController {
+
+}
