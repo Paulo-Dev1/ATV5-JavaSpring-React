@@ -7,7 +7,7 @@ import ClienteService from "../../services/ClienteService";
 export default function Create() {
   const [nome, setNome] = useState("");
   const [idade, setIdade] = useState("");//qualquer coisa mudar para numero
-  const [cPF, setCpf] = useState("");//mudar qualquer coisa numero
+  const [cpf, setCpf] = useState("");//mudar qualquer coisa numero
   const [telefone, setTelefone] = useState("");
   const [endereco, setEndereco] = useState("");
 
@@ -51,7 +51,7 @@ export default function Create() {
   const criarOuEditarCliente = (e) => {
     e.preventDefault();
 
-    const cliente = { nome, idade, cPF, telefone, endereco,destino,hospedagem };
+    const cliente = { nome, idade, cpf, telefone, endereco,destino,hospedagem };
     console.log(cliente)
     if (id) {
       ClienteService.updateCliente(id, cliente).then((response) => {
@@ -138,7 +138,7 @@ export default function Create() {
               id="Cpf"
               className="form-control"
               placeholder="Cpf"
-              value={cPF}
+              value={cpf}
               onChange={(e) => setCpf(e.target.value)}
             />
           </div>

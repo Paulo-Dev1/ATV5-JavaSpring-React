@@ -3,44 +3,131 @@ import React from "react";
 export default function Promocao() {
     return (
         
-         <div className="container">
+         <div className="naviopromo">
              
-             <h2 className="display-4 text-center">Promoções</h2>
-        <hr/>
-             
-                 
+             <p className="textocentralpromo">Aproveite as nossas melhores ofertas!</p>
         
-             <div className="hcaixa container">
+             <div className="containerpromo">
+
+                <div className="promocard">
+                <img src="/img/rj.jpg"   className="promo1" alt="" srcset="" />
+                        
+                
+                    <div className="promotexto">
+                        <p className="titulopromo">Pacote de Viagem Rio de Janeiro/RJ</p>
+                        <p className="t1">5 ou 7 diárias <span>1 pessoa</span></p>
+                        <p className="t2">&#10003; Quarto</p>
+                        <p className="t2">&#10003; Café da manhã</p>
+                        <p className="t2">&#10003; Passagem Aérea</p>
+                        <p className="risco">A apartir de R$ 779,00</p>
+                        <p className="precopromo" >R$ 539,00</p>
+                        <p className="t2">+taxas até 12x no cartão</p>
+                        <p className="t3">Cancelamento Grátis!</p>
+                    </div>
+                </div>
+
+                <div className="promocard">
+                <img src="/img/joapessoa.jpg"   className="promo1" alt="" srcset="" />
+                        
+                
+                    <div className="promotexto">
+                        <p className="titulopromo">Pacote de Viagem Recife+João Pessoa</p>
+                        <p className="t1">6 ou 8 diárias <span>1 pessoa</span></p>
+                        <p className="t2">&#10003; Quarto</p>
+                        <p className="t2">&#10003; Café da manhã</p>
+                        <p className="t2">&#10003; Passagem Aérea</p>
+                        <p className="risco">A apartir de R$ 687,00</p>
+                        <p className="precopromo" >R$ 549,00</p>
+                        <p className="t2">+taxas até 12x no cartão</p>
+                        <p className="t3">Cancelamento Grátis!</p>
+                    </div>
+                </div>
+
+                <div className="promocard">
+                <img src="/img/Natal.jpg"   className="promo1" alt="" srcset="" />
+                        
+                
+                    <div className="promotexto">
+                        <p className="titulopromo">Pacote de Viagem Natal/RN</p>
+                        <p className="t1">3 ou 5 diárias <span>1 pessoa</span></p>
+                        <p className="t2">&#10003; Quarto</p>
+                        <p className="t2">&#10003; All inclusive</p>
+                        <p className="t2">&#10003; Passagem Aérea</p>
+                        <p className="risco">A apartir de R$ 1099,00</p>
+                        <p className="precopromo" >R$ 879,00</p>
+                        <p className="t2">+taxas até 12x no cartão</p>
+                        <p className="t3">Cancelamento Grátis!</p>
+                    </div>
+                </div>
+
+                <br />
+
+               
+
+                
+
+                
+           </div>      
         
-                     <h1>Rio de Janeiro</h1>
-                     <img src="https://images.pexels.com/photos/6580700/pexels-photo-6580700.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" width={400}  className="img-fluid border border-dark rounded" alt="" srcset="" />
-                     <h5>3 diarias</h5>
-                     <h6>De <span className="risco">R$ 599,00</span> </h6>
-                     <h2>R$ 399,00</h2>
-                     <button className="btn btn-warning btn-lg" >Comprar</button>
-                     
-             </div>
         
-             <div className="hcaixa container">
+           <div className="containerpromo">
+
+<div className="promocard">
+<img src="/img/dubai.jpg"   className="promo1" alt="" srcset="" />
         
-                <h1>Inglaterra</h1>
-                <img src="https://images.pexels.com/photos/9825792/pexels-photo-9825792.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" width={400} className="img-fluid border border-dark rounded" alt="" srcset="" />
-                <h5>7 diarias</h5>
-                <h6>De <span className="risco">7.000,00</span> </h6>
-                <h2>R$ 5.000,00</h2>
-                <button className="btn btn-warning btn-lg">Comprar</button>
-        </div>
+
+    <div className="promotexto">
+        <p className="titulopromo">Pacote de Viagem Dubai</p>
+        <p className="t1">5 ou 7 diárias <span>1 pessoa</span></p>
+        <p className="t2">&#10003; Quarto</p>
+        <p className="t2">&#10003; Passagem Aérea</p>
+        <p className="risco">A apartir de R$ 2749,00</p>
+        <p className="precopromo" >R$ 2199,00</p>
+        <p className="t2">+taxas até 12x no cartão</p>
+        <p className="t3">Cancelamento Grátis!</p>
+    </div>
+</div>
+
+<div className="promocard">
+<img src="/img/holanda.jpg"   className="promo1" alt="" srcset="" />
         
-        <div className="hcaixa container">
+
+    <div className="promotexto">
+        <p className="titulopromo">Pacote de Viagem Amsterdam/Holanda</p>
+        <p className="t1">6 ou 8 diárias <span>1 pessoa</span></p>
+        <p className="t2">&#10003; Quarto</p>
+        <p className="t2">&#10003; Passagem Aérea</p>
+        <p className="risco">A apartir de R$ 2749,00</p>
+        <p className="precopromo" >R$ 2199,00</p>
+        <p className="t2">+taxas até 12x no cartão</p>
+        <p className="t3">Cancelamento Grátis!</p>
+    </div>
+</div>
+
+<div className="promocard">
+<img src="/img/maiami.jpg"   className="promo1" alt="" srcset="" />
         
-            <h1>Dubai</h1>
-            <img src="https://images.pexels.com/photos/162031/dubai-tower-arab-khalifa-162031.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" width={400} className="img-fluid border border-dark rounded" alt="" srcset="" />
-            <h5>5 diarias</h5>
-            <h6>De <span className="risco">R$ 9.000,00</span> </h6>
-            <h2>R$ 7.000,00</h2>
-            <button className="btn btn-warning btn-lg">Comprar</button>
-        </div>
-        
+
+    <div className="promotexto">
+        <p className="titulopromo">Pacote de Viagem Miami</p>
+        <p className="t1">5 ou 7 diárias <span>1 pessoa</span></p>
+        <p className="t2">&#10003; Quarto</p>
+        <p className="t2">&#10003; Passagem Aérea</p>
+        <p className="risco">A apartir de R$ 4399,00</p>
+        <p className="precopromo" >R$ 2639,00</p>
+        <p className="t2">+taxas até 12x no cartão</p>
+        <p className="t3">Cancelamento Grátis!</p>
+    </div>
+</div>
+
+<br />
+
+
+
+
+
+
+</div>  
             
         
             

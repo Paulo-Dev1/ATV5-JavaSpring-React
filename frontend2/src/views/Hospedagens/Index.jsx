@@ -43,10 +43,10 @@ export default function Index() {
           Criar Hospedagem
         </Link>
         <div className="table-responsive">
-          <table className="table table-hover table-sm">
+          <table className="table table-hover table-sm table-warning">
             <thead>
               <tr>
-                <th>Id</th>
+               
                 <th>Tipo de Hospedagem</th>
                 <th>Data de Entrada</th>
                 <th>Data de Saída</th>
@@ -56,7 +56,7 @@ export default function Index() {
             <tbody>
               {hospedagens.map((hospedagem) => (
                 <tr key={hospedagem.id_Hospedagem}>
-                  <td>{hospedagem.id_Hospedagem}</td>
+                  
                   <td>{hospedagem.tipo_Hospedagem}</td>
                   <td>{hospedagem.data_Entrada}</td>
                   <td>{hospedagem.data_Saida}</td>

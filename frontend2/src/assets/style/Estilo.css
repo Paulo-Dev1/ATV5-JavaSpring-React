@@ -1,18 +1,27 @@
 
 *{
     margin: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 body{
-    background: url("/public/img/Home1.png");
+    
+background-size: cover;
+overflow-x: hidden;
+}
+
+.menuimagem{
+    background-image: url("/public/img/menu.jpg") ;
+    
+
 }
 .topo-site{
-        
+        opacity: 1.0;
         text-align: center;
-        background-color: rgb(42, 141, 255);
-        padding: 20px;
-        height: 200px;
+        background: rgba(42, 141, 255, 0.3);
         
+        padding: 20px;
+        height: 30vh;
+        margin-bottom: 20px;
         
 
 }
@@ -24,34 +33,44 @@ body{
 }
 
 .menu1 {
+    
     list-style-type: none;
-    float: left;
+    display: flex;
     margin: 50px;
     margin-left: 150px;
+    justify-content: space-around; /*alinhamento para menu show de bola*/
 }
 
 .menu1 li {
 
+    letter-spacing: 3px;
+   
     
-    float: left;
+    
 }
 
 .menu1 li a {
-    margin-left: 50px;
+    
     text-decoration: none;
     color: white;
     display: block;
     padding: 10px;
     font-size: 20px;
+    transition: 0.7s;
 }
 
 .menu1 li a:hover{
-    background-color: white;
+    
+    
     color: black;
+    
+    
+    
 }
 
+
+
 .boa-vinda{
-    clear: both;
     text-align: center;
     margin: 20px;
 }
@@ -76,8 +95,22 @@ body{
     font-size: 18px;
     text-align: center;
     border-radius: 50px;
-    float: left;
     
+    
+}
+
+.textohome{
+    font-size: xx-large;
+}
+
+.linhahome{
+   border: solid rgb(0, 0, 0) 2px;
+   border-radius: 10px;
+
+}
+
+.btn-danger{
+    border-radius: 25px;
 }
 
 .imagem{
@@ -114,6 +147,7 @@ body{
     text-align: center;
     padding: 10px;
     background-color: rgb(42, 141, 255);
+    margin-top: 20px;
     
 }
 
@@ -150,10 +184,67 @@ body{
 }
 
 /*Promoção*/
+
+.naviopromo{
+    margin-left: 40px;
+}
+.textocentralpromo{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
 .risco{
     text-decoration: line-through;
+    font-size: 9px;
+    margin-top: 10px;
+    margin-bottom: -2px;
 }
 
+.promocard{
+    width: 404px;
+    margin: 10px;
+    background-color: rgb(170, 210, 255);
+    border: solid rgb(42, 141, 255) 2px;
+    border-radius: 10px;
+    
+}
+
+.promo1{
+    width: 400px;
+    border-radius: 10px;
+    
+}
+.promotexto{
+    padding: 10px;
+}
+.titulopromo{
+    font-weight: bold;
+}
+
+.t1{
+    font-size: 13px;
+    margin-top: -15px;
+    
+}
+.t2{
+    font-size: 10px;
+    margin: 0;
+    padding: 1px;
+}
+.t3{
+    font-size: 10px;
+    color: forestgreen;
+}
+.precopromo{
+    color: coral;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+.containerpromo{
+    display:flex
+}
 /*Area cliente*/
 
 .a-c{
@@ -170,19 +261,11 @@ body{
 }
 
 /*Contato*/
-.conteudo-contato{
-    padding: 50px;
+.contato1{
+    font-weight: bold;
 }
 
-.form{
-    border: 1px solid rgb(42, 141, 255);
-    border-radius: 10px;
-    
-}
-
-.enviar{
-    border: none;
-    border-radius: 5px;
-    background-color: rgb(42, 141, 255);
-    color: white;
+.contatocor{
+    background-color: rgb(170, 210, 255);
+    border-radius: 50px;
 }

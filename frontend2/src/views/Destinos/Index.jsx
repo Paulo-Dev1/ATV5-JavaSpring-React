@@ -43,10 +43,10 @@ export default function Index() {
           Criar Destino
         </Link>
         <div className="table-responsive">
-          <table className="table table-hover table-sm">
+          <table className="table table-hover table-sm table-success">
             <thead>
               <tr>
-                <th>Id</th>
+               
                 <th>Cidade</th>
                 <th>País</th>
                 <th>Ações</th>
@@ -55,7 +55,7 @@ export default function Index() {
             <tbody>
               {destinos.map((destino) => (
                 <tr key={destino.id_Destino}>
-                  <td>{destino.id_Destino}</td>
+                  
                   <td>{destino.cidade}</td>
                   <td>{destino.pais}</td>
                   <td className="d-flex">

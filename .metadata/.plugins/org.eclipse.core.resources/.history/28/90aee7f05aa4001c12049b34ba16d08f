@@ -1,5 +1,0 @@
-package com.agencia.turismo.repositorys;
-
-public interface HospedagemRepositry {
-
-}

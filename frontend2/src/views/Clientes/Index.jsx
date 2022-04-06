@@ -39,10 +39,10 @@ export default function Index() {
           Criar Cliente
         </Link>
         <div className="table-responsive">
-          <table className="table">
+          <table className="table table-hover table-sm table-info ">
             <thead>
-              <tr>
-                <th>Id</th>
+              <tr className="">
+                
                 <th>Nome</th>
                 <th>Idade</th>
                 <th>Cpf</th>
@@ -56,10 +56,10 @@ export default function Index() {
             <tbody>
               {clientes.map((cliente) => (
                 <tr key={cliente.id_Cliente}>
-                  <td>{cliente.id_Cliente}</td>
+                  
                   <td>{cliente.nome}</td>
                   <td>{cliente.idade}</td>
-                  <td>{cliente.cPF}</td>
+                  <td>{cliente.cpf}</td>
                   <td>{cliente.telefone}</td>
                   <td>{cliente.endereco}</td>
                   <td>
@@ -67,8 +67,7 @@ export default function Index() {
                   </td>
                   <td>
                 {cliente.hospedagem.tipo_Hospedagem}
-                {cliente.hospedagem.data_Entrada}
-                {cliente.hospedagem.data_Saida}
+                
                   </td>
                   <td className="d-flex">
                     <Link

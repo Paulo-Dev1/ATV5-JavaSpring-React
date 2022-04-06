@@ -15,7 +15,8 @@ import ClienteCreate from "./views/Clientes/Create"
 import Promocao from "./views/Promocao";
 import Contato from "./views/Contato";
 
-import "./assets/style/Estilo.css"
+import "./assets/style/Estilo.css";
+
 
 function App() {
   return (
